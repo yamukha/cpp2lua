@@ -1,0 +1,5 @@
+# combine into one lua script file
+# https://github.com/mihacooper/luacc
+# https://github.com/luarocks/luarocks/wiki/Installation-instructions-for-Unix
+# https://stackoverflow.com/questions/58768597/how-can-i-bundle-lua-scripts-to-single-file
+/home/am/.luarocks/bin/luacc  -o myapp.lua -i lunajson.lua -i lunajson/decoder.lua -i lunajson/encoder.lua -i lunajson/sax.lua main lunajson lunajson.decoder lunajson.encoder lunajson.sax
